@@ -134,23 +134,42 @@
 })(window.jQuery);
 
 
+
+
+var button = document.getElementById("myButton");
 var modal = document.getElementById("myModal");
-var link = document.getElementById("myLink");
 var span = document.getElementsByClassName("close")[0];
 
-// Kada se klikne na link, otvara se modal
-link.onclick = function() {
+button.onclick = function() {
   modal.style.display = "block";
 }
 
-// Kada se klikne na zatvaranje, zatvara se modal
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// Kada se klikne izvan moda, zatvara se modal
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 }
+
+
+
+// script.js
+
+const modalButton = document.querySelector('#myButton');
+const proba = document.querySelector('.modal');
+const navbar = document.querySelector('.header-area header-sticky ');
+const closeButton = document.querySelector('close');
+
+modalButton.addEventListener('click', () => {
+    proba.style.display = 'block'; // Prikazivanje moda
+    navbar.style.display = 'none'; // Sakrivanje navigacije
+});
+
+closeButton.addEventListener('click', () => {
+    proba.style.display = 'none'; // Sakrivanje moda
+    navbar.style.display = 'block'; // Prikazivanje navigacije
+});
+

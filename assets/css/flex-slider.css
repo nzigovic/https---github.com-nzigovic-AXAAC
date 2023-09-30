@@ -279,49 +279,18 @@ html[xmlns] .flexslider .slides {
     right: 10px;
   }
 }
-.modal {
-  display: none; /* Inicijalno sakriven */
-  position: absolute; /* Pozicioniranje na vrhu */
-  z-index: 100000 !important; /* Postavljanje preko ostalog sadržaja */
-  left: 0;
-  top: 100px !important;
-  width: 100%; /* Puno širine */
-  height: 100%; /* Puno visine */
-  overflow: auto; /* Omogućavanje skrolovanja ako je sadržaj predug */
-  background-color: rgba(0,0,0,0.4); /* Tamna pozadina sa prozirnošću */
+.tehnicki-pregled {
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(255, 0, 0, 0.454);
 }
 
-/* Stil za sadržaj moda */
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* Centriranje vertikalno i horizontalno */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
-/* Stil za zatvaranje moda */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  padding: 70px;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-#myModal {
+.Proba123 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 50%;
+  width: 100%;
+  height: 50vh;
 }
 
-.modal-content{
-  top: 50%;
+.aja1 h2 {
+  color: red;
 }
