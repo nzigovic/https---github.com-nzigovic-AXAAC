@@ -156,72 +156,6 @@
 
 
 
-// script.js
-
-// const modalButton = document.querySelector('#myButton');
-// const proba = document.querySelector('.modal');
-// // const navbar = document.querySelector('.header-area header-sticky ');
-// const closeButton = document.querySelector('close');
-
-// modalButton.addEventListener('click', () => {
-//     proba.style.display = 'block'; // Prikazivanje moda
-//     navbar.style.display = 'none'; // Sakrivanje navigacije
-// });
-
-// closeButton.addEventListener('click', () => {
-//     proba.style.display = 'none'; // Sakrivanje moda
-//     navbar.style.display = 'block'; // Prikazivanje navigacije
-// });
-
-
-// const modalButtona = document.querySelector('#myButton');
-// const probaa = document.querySelector('.modal');
-
-// const closeButtona = document.querySelector('close2');
-
-// modalButtona.addEventListener('click', () => {
-//     probaa.style.display = 'block'; // Prikazivanje moda
-//     // navbara.style.display = 'none'; // Sakrivanje navigacije?
-// });
-
-// closeButtona.addEventListener('click', () => {
-//     probaa.style.display = 'none'; // Sakrivanje moda
-//     // navbara.style.display = 'block'; // Prikazivanje navigacije
-// });
-
-
-// let buttonproba = document.getElementById('myButton');
-// let modaltekst = document.getElementsByClassName('modal');
-// let dugmeiskljuci = document.getElementsByClassName('close');
-
-// buttonproba.addEventListener ('click', () => {
-// 	modaltekst.style.display = 'block';
-
-// })
-// dugmeiskljuci.addEventListener('click', () => {
-// 	modaltekst.style.display = 'none';
-
-// })
-
-
-/////
-
-
-
-// var dugmeupali = document.getElementById('myButtonaaa');
-// var modaltekstproba = document.getElementsByClassName('modal1');
-// var dugmeiskljuciponov = document.getElementsByClassName('close1');
-
-// buttonproba.addEventListener ('click', () => {
-// 	modaltekst.style.display = 'block';
-
-// })
-// dugmeiskljuci.addEventListener('click', () => {
-// 	modaltekst.style.display = 'none';
-
-// })
-
-
 
 
 ////////////////
@@ -262,7 +196,7 @@ modal2.style.display = "none";
 }
 
 window.onclick = function(event) {
-if (event.target == modal1) {
+if (event.target == modal2) {
 	modal2.style.display = "none";
 }
 }
@@ -280,7 +214,7 @@ modal3.style.display = "none";
 }
 
 window.onclick = function(event) {
-if (event.target == modal1) {
+if (event.target == modal3) {
 	modal3.style.display = "none";
 }
 }
@@ -298,7 +232,7 @@ modal4.style.display = "none";
 }
 
 window.onclick = function(event) {
-if (event.target == modal1) {
+if (event.target == modal4) {
 	modal4.style.display = "none";
 }
 }
@@ -317,7 +251,7 @@ modal5.style.display = "none";
 }
 
 window.onclick = function(event) {
-if (event.target == modal1) {
+if (event.target == modal5) {
 	modal5.style.display = "none";
 }
 }
@@ -340,6 +274,10 @@ if (event.target == modal6) {
 	modal6.style.display = "none";
 }
 }
+
+
+
+
 var button8 = document.getElementById("myButtona7");
 var modal7 = document.getElementById("myModal8");
 var span7 = document.getElementsByClassName("close8")[0];
