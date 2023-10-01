@@ -321,3 +321,58 @@ if (event.target == modal1) {
 	modal5.style.display = "none";
 }
 }
+
+
+var button7 = document.getElementById("myButtona6");
+var modal6 = document.getElementById("myModal7");
+var span6 = document.getElementsByClassName("close7")[0];
+
+button7.onclick = function() {
+modal6.style.display = "block";
+}
+
+span6.onclick = function() {
+modal6.style.display = "none";
+}
+
+window.onclick = function(event) {
+if (event.target == modal6) {
+	modal6.style.display = "none";
+}
+}
+var button8 = document.getElementById("myButtona7");
+var modal7 = document.getElementById("myModal8");
+var span7 = document.getElementsByClassName("close8")[0];
+
+button8.onclick = function() {
+modal7.style.display = "block";
+}
+
+span7.onclick = function() {
+modal7.style.display = "none";
+}
+
+window.onclick = function(event) {
+if (event.target == modal7) {
+	modal7.style.display = "none";
+}
+}
+
+
+var button9 = document.getElementById("myButtona8");
+var modal8 = document.getElementById("myModal9");
+var span8 = document.getElementsByClassName("close9")[0];
+
+button9.onclick = function() {
+modal8.style.display = "block";
+}
+
+span8.onclick = function() {
+modal8.style.display = "none";
+}
+
+window.onclick = function(event) {
+if (event.target == modal8) {
+	modal8.style.display = "none";
+}
+}
