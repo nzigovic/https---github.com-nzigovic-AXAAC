@@ -1608,6 +1608,7 @@ preloader
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
+ 
   
 }
 
@@ -1620,6 +1621,11 @@ preloader
   max-width: 500px; /* Da bismo ograničili maksimalnu širinu modalnog prozora */
   height: 70%;
   max-height: 500px; /* Da bismo ograničili maksimalnu visinu modalnog prozora */
+  overflow: hidden;
+}
+
+.unutar-tekst {
+  overflow: auto;
 }
 
 .close {
@@ -1655,6 +1661,309 @@ preloader
 
 @media screen and (max-width: 768px) {
   .modal{
+
+    padding-top: 20vh;
+  }
+}
+
+
+
+
+
+.modal12 {
+  display: none;
+  position: fixed;
+  z-index: 25;
+  left: 0;
+  top: 0;
+  padding-top: 30vh;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  
+}
+
+.modal-content1 {
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px; /* Da bismo ograničili maksimalnu širinu modalnog prozora */
+  height: 70%;
+  max-height: 500px; /* Da bismo ograničili maksimalnu visinu modalnog prozora */
+}
+
+.close1 {
+  color: #8b8383;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.close1:hover,
+.close1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#proba-s {
+ background-color: transparent  ;
+ margin-left: 25px;
+ border: 0;
+ display: block;
+ transition: opacity 0.5s ease-in-out;
+ opacity: 1;
+
+}
+
+@media screen and (max-width: 768px) {
+  .modal-content1 {
+    height: 90%; /* Povećajte širinu moda za mobilne uređaje */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal12{
+
+    padding-top: 20vh;
+  }
+}
+
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 25;
+  left: 0;
+  top: 0;
+  padding-top: 30vh;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+
+}
+
+
+
+#myButtonaa {
+  background-color: transparent;
+  border: 0px;
+}
+
+
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 25;
+  left: 0;
+  top: 0;
+  padding-top: 30vh;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+
+
+.close2 {
+  color: #8b8383;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#myButtona2 {
+  background-color: transparent;
+  border: 0px;
+}
+
+.modal3 {
+  display: none;
+  position: fixed;
+  z-index: 25;
+  left: 0;
+  top: 0;
+  padding-top: 30vh;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+
+}
+
+
+.close3 {
+  color: #8b8383;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#myButtona3 {
+  background-color: transparent;
+  border: 0px;
+}
+
+.modal4{
+  display: none;
+  position: fixed;
+  z-index: 25;
+  left: 0;
+  top: 0;
+  padding-top: 30vh;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+
+}
+
+
+
+
+.close4 {
+  color: #8b8383;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.close4:hover,
+.close4:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myButtona4 {
+  background-color: transparent;
+  border: 0px;
+
+}
+
+
+
+.modal4{
+  display: none;
+  position: fixed;
+  z-index: 25;
+  left: 0;
+  top: 0;
+  padding-top: 30vh;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+
+}
+
+
+
+
+.close4 {
+  color: #8b8383;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.close4:hover,
+.close4:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myButtona4 {
+  background-color: transparent;
+  border: 0px;
+
+}
+
+
+.modal5{
+  display: none;
+  position: fixed;
+  z-index: 25;
+  left: 0;
+  top: 0;
+  padding-top: 30vh;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+
+}
+
+
+
+
+.close5 {
+  color: #8b8383;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.close5:hover,
+.close5:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myButtona5 {
+  background-color: transparent;
+  border: 0px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+    height: 90%; /* Povećajte širinu moda za mobilne uređaje */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal1, .modal2, .modal3, .modal4, .modal5{
 
     padding-top: 20vh;
   }
