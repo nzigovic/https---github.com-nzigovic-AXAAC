@@ -379,7 +379,7 @@ header
   top: 30px;
   left: 0px;
   right: 0px;
-  z-index: 5;
+  z-index: 100;
   height: 100px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1667,6 +1667,13 @@ preloader
 }
 
 
+@media screen and (max-width: 768px) {
+  .modal{
+
+    padding-top: 20vh;
+  }
+}
+
 
 
 
@@ -1961,13 +1968,15 @@ preloader
     height: 90%; /* Povećajte širinu moda za mobilne uređaje */
   }
 }
-
+/* 
 @media screen and (max-width: 768px) {
   .modal1, .modal2, .modal3, .modal4, .modal5, .modal6,{
 
+    
     padding-top: 20vh;
   }
-}
+  
+} */
 
 @media screen and (max-width: 768px) {
    .modal7, .modal8, .modal9 {
@@ -2117,4 +2126,40 @@ preloader
 #myButtona8:focus {
   outline: none;
   border: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .modal3 {
+    height: 100%;
+   padding-top: 20vh;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .modal1 {
+    height: 100%;
+   padding-top: 20vh;
+ }
+}
+
+
+@media screen and (max-width: 768px) {
+  .modal4, .modal5, .modal7, .modal8, .modal9 {
+    height: 100%;
+   padding-top: 20vh;
+ }
+}
+
+
+
+.link-naslov a {
+  color: white;
+}
+
+.link-naslov a:hover {
+  text-decoration: underline; /* Podcrtavanje na hover */
+  color: red; /* Promjena boje na hover */
+  background-color: white;
 }
