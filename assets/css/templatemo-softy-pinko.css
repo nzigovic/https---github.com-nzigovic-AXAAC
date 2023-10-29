@@ -2171,3 +2171,33 @@ preloader
   transition: 0.6s;
 
 }
+.left-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.telefon {
+  display: flex;
+  padding: 10px;
+  /* background-color: red; */
+  text-align: center;
+  justify-content: center ;
+  border: 1px solid;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px #a85559;
+  padding-top: 4px;
+}
+#mobilni-slika {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.telefon :hover {
+  color: #a85559;
+}
