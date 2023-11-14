@@ -2201,3 +2201,12 @@ preloader
 .telefon :hover {
   color: #a85559;
 }
+
+
+.left-heading h2 {
+  margin-bottom: 25px;
+}
+
+.left-text {
+  margin-top: 25px;
+}
